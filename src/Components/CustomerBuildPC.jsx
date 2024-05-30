@@ -22,7 +22,8 @@ export default function CustomerBuildPC() {
         }, 3000);
     };
 
-    const handleStartOver = () => {
+    const handleStartOver = (event) => {
+        setMoney(0)
         setBuildPC(false);
     }
 
