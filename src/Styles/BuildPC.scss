@@ -1,0 +1,53 @@
+.buildPC {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+
+    .button {
+        display: inline-block;
+        width: 80%;
+
+        button {
+            width: 100%;
+            border: none;
+            background-color: #F43F5E;
+            color: #FFF;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 10px 0px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .type-pc {
+        width: 100%;
+        margin: 15px 0px;
+        padding: 10px 15px;
+        background-color: #F5F5F5;
+        border-radius: 8px;
+        font-weight: 700;
+        color: #F43F5E;
+    }
+
+    .form-build-PC {
+        width: 100%;
+        margin: 15px 0px;
+        padding: 10px 15px;
+        background-color: #F5F5F5;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .total-money {
+        font-weight: bold;
+        width: 100%;
+        margin: 15px 0px;
+        padding: 10px 15px;
+        background-color: #F5F5F5;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
